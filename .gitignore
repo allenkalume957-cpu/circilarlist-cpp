@@ -1,0 +1,11 @@
+# Compiled binary
+CircularList
+*.o
+*.out
+*.exe
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store

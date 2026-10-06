@@ -1,0 +1,21 @@
+===== Circular List Demo =====
+
+Start            : (empty)   [size=0]
+pushBack(10)     : 10 -> (back to 10)   [size=1]
+pushBack(20)     : 10 -> 20 -> (back to 10)   [size=2]
+pushBack(30)     : 10 -> 20 -> 30 -> (back to 10)   [size=3]
+pushBack(40)     : 10 -> 20 -> 30 -> 40 -> (back to 10)   [size=4]
+
+pushFront(5)     : 5 -> 10 -> 20 -> 30 -> 40 -> (back to 5)   [size=5]
+find(30)       -> found at index 3
+find(99)       -> not found
+
+popFront()     -> removed 5
+after popFront   : 10 -> 20 -> 30 -> 40 -> (back to 10)   [size=4]
+removeValue(20) -> removed 20
+after remove     : 10 -> 30 -> 40 -> (back to 10)   [size=3]
+
+Full lap       : 10 30 40 
+After emptying   : (empty)   [size=0]
+
+Program finished successfully.
